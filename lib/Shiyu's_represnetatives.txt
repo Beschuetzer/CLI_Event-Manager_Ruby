@@ -1,0 +1,78 @@
+Shiyu 96734 [#<Google::Apis::CivicinfoV2::Official:0x0000560543f0a840 @address=[#<Google::Apis::CivicinfoV2::SimpleAddressType:0x0000560543f09940 @city="Washington", @line1="713 Hart Senate Office Building", @state="DC", @zip="20510">], @channels=[#<Google::Apis::CivicinfoV2::Channel:0x0000560543f01600 @id="mazie.hirono", @type="Facebook">, #<Google::Apis::CivicinfoV2::Channel:0x0000560543f002f0 @id="maziehirono", @type="Twitter">, #<Google::Apis::CivicinfoV2::Channel:0x0000560543efae18 @id="CongresswomanHirono", @type="YouTube">], @name="Mazie K. Hirono", @party="Democratic Party", @phones=["(202) 224-6361"], @photo_url="http://bioguide.congress.gov/bioguide/photo/H/H001042.jpg", @urls=["https://www.hirono.senate.gov/"]>, #<Google::Apis::CivicinfoV2::Official:0x0000560543ef3b40 @address=[#<Google::Apis::CivicinfoV2::SimpleAddressType:0x0000560543ef2628 @city="Washington", @line1="722 Hart Senate Office Building", @state="DC", @zip="20510">], @channels=[#<Google::Apis::CivicinfoV2::Channel:0x0000560543ef03f0 @id="BrianSchatz", @type="Facebook">, #<Google::Apis::CivicinfoV2::Channel:0x0000560543eeb490 @id="SenBrianSchatz", @type="Twitter">, #<Google::Apis::CivicinfoV2::Channel:0x0000560543eea478 @id="UC8-mSYp2WqBiB_5iwtwKfow", @type="YouTube">], @name="Brian Schatz", @party="Democratic Party", @phones=["(202) 224-3934"], @photo_url="http://bioguide.congress.gov/bioguide/photo/S/S001194.jpg", @urls=["https://www.schatz.senate.gov/"]>, #<Google::Apis::CivicinfoV2::Official:0x0000560543ee1a30 @address=[#<Google::Apis::CivicinfoV2::SimpleAddressType:0x0000560543ee0b08 @city="Washington", @line1="1433 Longworth House Office Building", @state="DC", @zip="20515">], @channels=[#<Google::Apis::CivicinfoV2::Channel:0x0000560543ed0a00 @id="RepTulsiGabbard", @type="Facebook">, #<Google::Apis::CivicinfoV2::Channel:0x0000560543ec98b8 @id="tulsipress", @type="Twitter">, #<Google::Apis::CivicinfoV2::Channel:0x0000560543eca7b8 @id="tulsipress", @type="YouTube">, #<Google::Apis::CivicinfoV2::Channel:0x0000560543ec6d48 @id="VoteTulsi", @type="YouTube">], @name="Tulsi Gabbard", @party="Democratic Party", @phones=["(202) 225-4906"], @photo_url="http://bioguide.congress.gov/bioguide/photo/G/G000571.jpg", @urls=["https://gabbard.house.gov/"], @emails=["tulsioffice@mail.house.gov"]>]---
+- !ruby/object:Google::Apis::CivicinfoV2::Official
+  address:
+  - !ruby/object:Google::Apis::CivicinfoV2::SimpleAddressType
+    city: Washington
+    line1: 713 Hart Senate Office Building
+    state: DC
+    zip: '20510'
+  channels:
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: mazie.hirono
+    type: Facebook
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: maziehirono
+    type: Twitter
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: CongresswomanHirono
+    type: YouTube
+  name: Mazie K. Hirono
+  party: Democratic Party
+  phones:
+  - "(202) 224-6361"
+  photo_url: http://bioguide.congress.gov/bioguide/photo/H/H001042.jpg
+  urls:
+  - https://www.hirono.senate.gov/
+- !ruby/object:Google::Apis::CivicinfoV2::Official
+  address:
+  - !ruby/object:Google::Apis::CivicinfoV2::SimpleAddressType
+    city: Washington
+    line1: 722 Hart Senate Office Building
+    state: DC
+    zip: '20510'
+  channels:
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: BrianSchatz
+    type: Facebook
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: SenBrianSchatz
+    type: Twitter
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: UC8-mSYp2WqBiB_5iwtwKfow
+    type: YouTube
+  name: Brian Schatz
+  party: Democratic Party
+  phones:
+  - "(202) 224-3934"
+  photo_url: http://bioguide.congress.gov/bioguide/photo/S/S001194.jpg
+  urls:
+  - https://www.schatz.senate.gov/
+- !ruby/object:Google::Apis::CivicinfoV2::Official
+  address:
+  - !ruby/object:Google::Apis::CivicinfoV2::SimpleAddressType
+    city: Washington
+    line1: 1433 Longworth House Office Building
+    state: DC
+    zip: '20515'
+  channels:
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: RepTulsiGabbard
+    type: Facebook
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: tulsipress
+    type: Twitter
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: tulsipress
+    type: YouTube
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: VoteTulsi
+    type: YouTube
+  name: Tulsi Gabbard
+  party: Democratic Party
+  phones:
+  - "(202) 225-4906"
+  photo_url: http://bioguide.congress.gov/bioguide/photo/G/G000571.jpg
+  urls:
+  - https://gabbard.house.gov/
+  emails:
+  - tulsioffice@mail.house.gov

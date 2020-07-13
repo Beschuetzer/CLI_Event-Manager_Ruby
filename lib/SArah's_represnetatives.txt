@@ -1,0 +1,25 @@
+SArah 20009 [#<Google::Apis::CivicinfoV2::Official:0x000056054444bd90 @address=[#<Google::Apis::CivicinfoV2::SimpleAddressType:0x000056054444b818 @city="Washington", @line1="2136 Rayburn House Office Building", @state="DC", @zip="20515">], @channels=[#<Google::Apis::CivicinfoV2::Channel:0x000056054444a738 @id="CongresswomanNorton", @type="Facebook">, #<Google::Apis::CivicinfoV2::Channel:0x000056054444a0a8 @id="eleanornorton", @type="Twitter">, #<Google::Apis::CivicinfoV2::Channel:0x0000560544449a18 @id="EleanorHNorton", @type="YouTube">], @name="Eleanor Holmes Norton", @party="Democratic Party", @phones=["(202) 225-8050"], @photo_url="http://bioguide.congress.gov/bioguide/photo/N/N000147.jpg", @urls=["http://norton.house.gov/"]>]---
+- !ruby/object:Google::Apis::CivicinfoV2::Official
+  address:
+  - !ruby/object:Google::Apis::CivicinfoV2::SimpleAddressType
+    city: Washington
+    line1: 2136 Rayburn House Office Building
+    state: DC
+    zip: '20515'
+  channels:
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: CongresswomanNorton
+    type: Facebook
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: eleanornorton
+    type: Twitter
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: EleanorHNorton
+    type: YouTube
+  name: Eleanor Holmes Norton
+  party: Democratic Party
+  phones:
+  - "(202) 225-8050"
+  photo_url: http://bioguide.congress.gov/bioguide/photo/N/N000147.jpg
+  urls:
+  - http://norton.house.gov/

@@ -1,0 +1,54 @@
+Mary Kate 21230 [#<Google::Apis::CivicinfoV2::Official:0x0000560544270d90 @address=[#<Google::Apis::CivicinfoV2::SimpleAddressType:0x00005605442706d8 @city="Washington", @line1="110 Hart Senate Office Building", @state="DC", @zip="20510">], @channels=[#<Google::Apis::CivicinfoV2::Channel:0x000056054426f3a0 @id="chrisvanhollen", @type="Facebook">, #<Google::Apis::CivicinfoV2::Channel:0x000056054426eb80 @id="ChrisVanHollen", @type="Twitter">, #<Google::Apis::CivicinfoV2::Channel:0x000056054426e360 @id="RepChrisVanHollen", @type="YouTube">, #<Google::Apis::CivicinfoV2::Channel:0x000056054426dc30 @id="UCBSlMoNO-4flZ4CupiiCrdQ", @type="YouTube">], @name="Chris Van Hollen", @party="Democratic Party", @phones=["(202) 224-4654"], @photo_url="http://bioguide.congress.gov/bioguide/photo/V/V000128.jpg", @urls=["https://www.vanhollen.senate.gov/"], @emails=["assistance@vanhollen.senate.gov"]>, #<Google::Apis::CivicinfoV2::Official:0x000056054426c358 @address=[#<Google::Apis::CivicinfoV2::SimpleAddressType:0x000056054426bd68 @city="Washington", @line1="509 Hart Senate Office Building", @state="DC", @zip="20510">], @channels=[#<Google::Apis::CivicinfoV2::Channel:0x000056054426ac88 @id="senatorbencardin", @type="Facebook">, #<Google::Apis::CivicinfoV2::Channel:0x000056054426a5f8 @id="SenatorCardin", @type="Twitter">, #<Google::Apis::CivicinfoV2::Channel:0x0000560544269f68 @id="SenatorCardin", @type="YouTube">], @name="Benjamin L. Cardin", @party="Democratic Party", @phones=["(202) 224-4524"], @photo_url="http://bioguide.congress.gov/bioguide/photo/C/C000141.jpg", @urls=["https://www.cardin.senate.gov/"]>]---
+- !ruby/object:Google::Apis::CivicinfoV2::Official
+  address:
+  - !ruby/object:Google::Apis::CivicinfoV2::SimpleAddressType
+    city: Washington
+    line1: 110 Hart Senate Office Building
+    state: DC
+    zip: '20510'
+  channels:
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: chrisvanhollen
+    type: Facebook
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: ChrisVanHollen
+    type: Twitter
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: RepChrisVanHollen
+    type: YouTube
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: UCBSlMoNO-4flZ4CupiiCrdQ
+    type: YouTube
+  name: Chris Van Hollen
+  party: Democratic Party
+  phones:
+  - "(202) 224-4654"
+  photo_url: http://bioguide.congress.gov/bioguide/photo/V/V000128.jpg
+  urls:
+  - https://www.vanhollen.senate.gov/
+  emails:
+  - assistance@vanhollen.senate.gov
+- !ruby/object:Google::Apis::CivicinfoV2::Official
+  address:
+  - !ruby/object:Google::Apis::CivicinfoV2::SimpleAddressType
+    city: Washington
+    line1: 509 Hart Senate Office Building
+    state: DC
+    zip: '20510'
+  channels:
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: senatorbencardin
+    type: Facebook
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: SenatorCardin
+    type: Twitter
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: SenatorCardin
+    type: YouTube
+  name: Benjamin L. Cardin
+  party: Democratic Party
+  phones:
+  - "(202) 224-4524"
+  photo_url: http://bioguide.congress.gov/bioguide/photo/C/C000141.jpg
+  urls:
+  - https://www.cardin.senate.gov/

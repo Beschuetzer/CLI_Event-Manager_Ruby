@@ -1,0 +1,49 @@
+David 07306 [#<Google::Apis::CivicinfoV2::Official:0x000056054436d608 @address=[#<Google::Apis::CivicinfoV2::SimpleAddressType:0x000056054436d090 @city="Washington", @line1="528 Hart Senate Office Building", @state="DC", @zip="20510">], @channels=[#<Google::Apis::CivicinfoV2::Channel:0x000056054435ff80 @id="senatormenendez", @type="Facebook">, #<Google::Apis::CivicinfoV2::Channel:0x000056054435f8f0 @id="SenatorMenendez", @type="Twitter">, #<Google::Apis::CivicinfoV2::Channel:0x000056054435f260 @id="SenatorMenendezNJ", @type="YouTube">], @name="Robert Menendez", @party="Democratic Party", @phones=["(202) 224-4744"], @photo_url="http://bioguide.congress.gov/bioguide/photo/M/M000639.jpg", @urls=["https://www.menendez.senate.gov/"]>, #<Google::Apis::CivicinfoV2::Official:0x000056054435e018 @address=[#<Google::Apis::CivicinfoV2::SimpleAddressType:0x000056054435da50 @city="Washington", @line1="717 Hart Senate Office Building", @state="DC", @zip="20510">], @channels=[#<Google::Apis::CivicinfoV2::Channel:0x000056054435c650 @id="corybooker", @type="Facebook">, #<Google::Apis::CivicinfoV2::Channel:0x0000560544353fa0 @id="CoryBooker", @type="Twitter">, #<Google::Apis::CivicinfoV2::Channel:0x0000560544353910 @id="UC6FlymqNS1VettnVZa7goPA", @type="YouTube">], @name="Cory A. Booker", @party="Democratic Party", @phones=["(202) 224-3224"], @photo_url="http://bioguide.congress.gov/bioguide/photo/B/B001288.jpg", @urls=["http://www.booker.senate.gov/"]>]---
+- !ruby/object:Google::Apis::CivicinfoV2::Official
+  address:
+  - !ruby/object:Google::Apis::CivicinfoV2::SimpleAddressType
+    city: Washington
+    line1: 528 Hart Senate Office Building
+    state: DC
+    zip: '20510'
+  channels:
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: senatormenendez
+    type: Facebook
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: SenatorMenendez
+    type: Twitter
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: SenatorMenendezNJ
+    type: YouTube
+  name: Robert Menendez
+  party: Democratic Party
+  phones:
+  - "(202) 224-4744"
+  photo_url: http://bioguide.congress.gov/bioguide/photo/M/M000639.jpg
+  urls:
+  - https://www.menendez.senate.gov/
+- !ruby/object:Google::Apis::CivicinfoV2::Official
+  address:
+  - !ruby/object:Google::Apis::CivicinfoV2::SimpleAddressType
+    city: Washington
+    line1: 717 Hart Senate Office Building
+    state: DC
+    zip: '20510'
+  channels:
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: corybooker
+    type: Facebook
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: CoryBooker
+    type: Twitter
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: UC6FlymqNS1VettnVZa7goPA
+    type: YouTube
+  name: Cory A. Booker
+  party: Democratic Party
+  phones:
+  - "(202) 224-3224"
+  photo_url: http://bioguide.congress.gov/bioguide/photo/B/B001288.jpg
+  urls:
+  - http://www.booker.senate.gov/

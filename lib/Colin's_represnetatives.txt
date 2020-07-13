@@ -1,0 +1,73 @@
+Colin 02703 [#<Google::Apis::CivicinfoV2::Official:0x00005605444ef800 @address=[#<Google::Apis::CivicinfoV2::SimpleAddressType:0x00005605444eef68 @city="Washington", @line1="309 Hart Senate Office Building", @state="DC", @zip="20510">], @channels=[#<Google::Apis::CivicinfoV2::Channel:0x00005605444ed3e8 @id="senatorelizabethwarren", @type="Facebook">, #<Google::Apis::CivicinfoV2::Channel:0x00005605444ecc18 @id="SenWarren", @type="Twitter">, #<Google::Apis::CivicinfoV2::Channel:0x00005605444ec380 @id="senelizabethwarren", @type="YouTube">], @name="Elizabeth Warren", @party="Democratic Party", @phones=["(202) 224-4543"], @photo_url="http://bioguide.congress.gov/bioguide/photo/W/W000817.jpg", @urls=["https://www.warren.senate.gov/"]>, #<Google::Apis::CivicinfoV2::Official:0x00005605444e69f8 @address=[#<Google::Apis::CivicinfoV2::SimpleAddressType:0x00005605444e61b0 @city="Washington", @line1="255 Dirksen Senate Office Building", @state="DC", @zip="20510">], @channels=[#<Google::Apis::CivicinfoV2::Channel:0x00005605444e4a90 @id="EdJMarkey", @type="Facebook">, #<Google::Apis::CivicinfoV2::Channel:0x00005605444e4130 @id="senmarkey", @type="Twitter">, #<Google::Apis::CivicinfoV2::Channel:0x00005605444df9a0 @id="repmarkey", @type="YouTube">], @name="Edward J. Markey", @party="Democratic Party", @phones=["(202) 224-2742"], @photo_url="http://bioguide.congress.gov/bioguide/photo/M/M000133.jpg", @urls=["https://www.markey.senate.gov/"]>, #<Google::Apis::CivicinfoV2::Official:0x00005605444ddad8 @address=[#<Google::Apis::CivicinfoV2::SimpleAddressType:0x00005605444dd3d0 @city="Washington", @line1="304 Cannon House Office Building", @state="DC", @zip="20515">], @channels=[#<Google::Apis::CivicinfoV2::Channel:0x00005605444d7d68 @id="301936109927957", @type="Facebook">, #<Google::Apis::CivicinfoV2::Channel:0x00005605444d7250 @id="RepJoeKennedy", @type="Twitter">, #<Google::Apis::CivicinfoV2::Channel:0x00005605444d6a80 @id="UCgfHlaGqxD8p-2V_YlNIqrA", @type="YouTube">], @name="Joseph P. Kennedy III", @party="Democratic Party", @phones=["(202) 225-5931"], @photo_url="http://bioguide.congress.gov/bioguide/photo/K/K000379.jpg", @urls=["https://kennedy.house.gov/"]>]---
+- !ruby/object:Google::Apis::CivicinfoV2::Official
+  address:
+  - !ruby/object:Google::Apis::CivicinfoV2::SimpleAddressType
+    city: Washington
+    line1: 309 Hart Senate Office Building
+    state: DC
+    zip: '20510'
+  channels:
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: senatorelizabethwarren
+    type: Facebook
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: SenWarren
+    type: Twitter
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: senelizabethwarren
+    type: YouTube
+  name: Elizabeth Warren
+  party: Democratic Party
+  phones:
+  - "(202) 224-4543"
+  photo_url: http://bioguide.congress.gov/bioguide/photo/W/W000817.jpg
+  urls:
+  - https://www.warren.senate.gov/
+- !ruby/object:Google::Apis::CivicinfoV2::Official
+  address:
+  - !ruby/object:Google::Apis::CivicinfoV2::SimpleAddressType
+    city: Washington
+    line1: 255 Dirksen Senate Office Building
+    state: DC
+    zip: '20510'
+  channels:
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: EdJMarkey
+    type: Facebook
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: senmarkey
+    type: Twitter
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: repmarkey
+    type: YouTube
+  name: Edward J. Markey
+  party: Democratic Party
+  phones:
+  - "(202) 224-2742"
+  photo_url: http://bioguide.congress.gov/bioguide/photo/M/M000133.jpg
+  urls:
+  - https://www.markey.senate.gov/
+- !ruby/object:Google::Apis::CivicinfoV2::Official
+  address:
+  - !ruby/object:Google::Apis::CivicinfoV2::SimpleAddressType
+    city: Washington
+    line1: 304 Cannon House Office Building
+    state: DC
+    zip: '20515'
+  channels:
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: '301936109927957'
+    type: Facebook
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: RepJoeKennedy
+    type: Twitter
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: UCgfHlaGqxD8p-2V_YlNIqrA
+    type: YouTube
+  name: Joseph P. Kennedy III
+  party: Democratic Party
+  phones:
+  - "(202) 225-5931"
+  photo_url: http://bioguide.congress.gov/bioguide/photo/K/K000379.jpg
+  urls:
+  - https://kennedy.house.gov/

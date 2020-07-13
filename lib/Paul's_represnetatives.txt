@@ -1,0 +1,54 @@
+Paul 14517 [#<Google::Apis::CivicinfoV2::Official:0x00005605443c64d8 @address=[#<Google::Apis::CivicinfoV2::SimpleAddressType:0x00005605443c5f60 @city="Washington", @line1="322 Hart Senate Office Building", @state="DC", @zip="20510">], @channels=[#<Google::Apis::CivicinfoV2::Channel:0x00005605443c4e80 @id="senschumer", @type="Facebook">, #<Google::Apis::CivicinfoV2::Channel:0x00005605443c47f0 @id="SenSchumer", @type="Twitter">, #<Google::Apis::CivicinfoV2::Channel:0x00005605443c4160 @id="SenatorSchumer", @type="YouTube">, #<Google::Apis::CivicinfoV2::Channel:0x00005605443bea80 @id="ChuckSchumer", @type="YouTube">], @name="Charles E. Schumer", @party="Democratic Party", @phones=["(202) 224-6542"], @photo_url="http://bioguide.congress.gov/bioguide/photo/S/S000148.jpg", @urls=["https://www.schumer.senate.gov/"]>, #<Google::Apis::CivicinfoV2::Official:0x00005605443bd360 @address=[#<Google::Apis::CivicinfoV2::SimpleAddressType:0x00005605443bcde8 @city="Washington", @line1="478 Russell Senate Office Building", @state="DC", @zip="20510">], @channels=[#<Google::Apis::CivicinfoV2::Channel:0x00005605443bb538 @id="KirstenGillibrand", @type="Facebook">, #<Google::Apis::CivicinfoV2::Channel:0x00005605443b9828 @id="SenGillibrand", @type="Twitter">, #<Google::Apis::CivicinfoV2::Channel:0x00005605443a3fa0 @id="KirstenEGillibrand", @type="YouTube">], @name="Kirsten E. Gillibrand", @party="Democratic Party", @phones=["(202) 224-4451"], @photo_url="http://bioguide.congress.gov/bioguide/photo/G/G000555.jpg", @urls=["https://www.gillibrand.senate.gov/"]>, #<Google::Apis::CivicinfoV2::Official:0x00005605443a2d58 @name="VACANT">]---
+- !ruby/object:Google::Apis::CivicinfoV2::Official
+  address:
+  - !ruby/object:Google::Apis::CivicinfoV2::SimpleAddressType
+    city: Washington
+    line1: 322 Hart Senate Office Building
+    state: DC
+    zip: '20510'
+  channels:
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: senschumer
+    type: Facebook
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: SenSchumer
+    type: Twitter
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: SenatorSchumer
+    type: YouTube
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: ChuckSchumer
+    type: YouTube
+  name: Charles E. Schumer
+  party: Democratic Party
+  phones:
+  - "(202) 224-6542"
+  photo_url: http://bioguide.congress.gov/bioguide/photo/S/S000148.jpg
+  urls:
+  - https://www.schumer.senate.gov/
+- !ruby/object:Google::Apis::CivicinfoV2::Official
+  address:
+  - !ruby/object:Google::Apis::CivicinfoV2::SimpleAddressType
+    city: Washington
+    line1: 478 Russell Senate Office Building
+    state: DC
+    zip: '20510'
+  channels:
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: KirstenGillibrand
+    type: Facebook
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: SenGillibrand
+    type: Twitter
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: KirstenEGillibrand
+    type: YouTube
+  name: Kirsten E. Gillibrand
+  party: Democratic Party
+  phones:
+  - "(202) 224-4451"
+  photo_url: http://bioguide.congress.gov/bioguide/photo/G/G000555.jpg
+  urls:
+  - https://www.gillibrand.senate.gov/
+- !ruby/object:Google::Apis::CivicinfoV2::Official
+  name: VACANT

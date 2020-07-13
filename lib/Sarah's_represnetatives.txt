@@ -1,0 +1,78 @@
+Sarah 33703 [#<Google::Apis::CivicinfoV2::Official:0x00005605443bd8b0 @address=[#<Google::Apis::CivicinfoV2::SimpleAddressType:0x00005605443bd338 @city="Washington", @line1="716 Hart Senate Office Building", @state="DC", @zip="20510">], @channels=[#<Google::Apis::CivicinfoV2::Channel:0x00005605443bc258 @id="RickScottSenOffice", @type="Facebook">, #<Google::Apis::CivicinfoV2::Channel:0x00005605443bb0b0 @id="SenRickScott", @type="Twitter">, #<Google::Apis::CivicinfoV2::Channel:0x00005605443b9378 @id="scottforflorida", @type="YouTube">], @name="Rick Scott", @party="Republican Party", @phones=["(202) 224-5274"], @photo_url="http://www.flgov.com/wp-content/uploads/2013/05/GovernorNEW-682x1024.jpg", @urls=["https://www.rickscott.senate.gov/"], @emails=["help@rickscott.senate.gov"]>, #<Google::Apis::CivicinfoV2::Official:0x00005605443a31e0 @address=[#<Google::Apis::CivicinfoV2::SimpleAddressType:0x00005605443a2c68 @city="Washington", @line1="284 Russell Senate Office Building", @state="DC", @zip="20510">], @channels=[#<Google::Apis::CivicinfoV2::Channel:0x00005605443a1750 @id="SenatorMarcoRubio", @type="Facebook">, #<Google::Apis::CivicinfoV2::Channel:0x000056054439ff40 @id="marcorubio", @type="Twitter">, #<Google::Apis::CivicinfoV2::Channel:0x000056054439f8b0 @id="SenatorMarcoRubio", @type="YouTube">, #<Google::Apis::CivicinfoV2::Channel:0x000056054439f220 @id="MarcoRubio", @type="YouTube">], @name="Marco Rubio", @party="Republican Party", @phones=["(202) 224-3041"], @photo_url="http://bioguide.congress.gov/bioguide/photo/R/R000595.jpg", @urls=["https://www.rubio.senate.gov/"]>, #<Google::Apis::CivicinfoV2::Official:0x000056054439dfd8 @address=[#<Google::Apis::CivicinfoV2::SimpleAddressType:0x000056054439da60 @city="Washington", @line1="215 Cannon House Office Building", @state="DC", @zip="20515">], @channels=[#<Google::Apis::CivicinfoV2::Channel:0x000056054439c980 @id="RepCharlieCrist", @type="Facebook">, #<Google::Apis::CivicinfoV2::Channel:0x000056054439c2f0 @id="RepCharlieCrist", @type="Twitter">, #<Google::Apis::CivicinfoV2::Channel:0x000056054439bc10 @id="UCVwY7cujoNveYpbB6vC9aKg", @type="YouTube">], @name="Charlie Crist", @party="Democratic Party", @phones=["(202) 225-5961"], @photo_url="http://crist.house.gov/images/crist-head.jpg", @urls=["https://crist.house.gov/"]>]---
+- !ruby/object:Google::Apis::CivicinfoV2::Official
+  address:
+  - !ruby/object:Google::Apis::CivicinfoV2::SimpleAddressType
+    city: Washington
+    line1: 716 Hart Senate Office Building
+    state: DC
+    zip: '20510'
+  channels:
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: RickScottSenOffice
+    type: Facebook
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: SenRickScott
+    type: Twitter
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: scottforflorida
+    type: YouTube
+  name: Rick Scott
+  party: Republican Party
+  phones:
+  - "(202) 224-5274"
+  photo_url: http://www.flgov.com/wp-content/uploads/2013/05/GovernorNEW-682x1024.jpg
+  urls:
+  - https://www.rickscott.senate.gov/
+  emails:
+  - help@rickscott.senate.gov
+- !ruby/object:Google::Apis::CivicinfoV2::Official
+  address:
+  - !ruby/object:Google::Apis::CivicinfoV2::SimpleAddressType
+    city: Washington
+    line1: 284 Russell Senate Office Building
+    state: DC
+    zip: '20510'
+  channels:
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: SenatorMarcoRubio
+    type: Facebook
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: marcorubio
+    type: Twitter
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: SenatorMarcoRubio
+    type: YouTube
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: MarcoRubio
+    type: YouTube
+  name: Marco Rubio
+  party: Republican Party
+  phones:
+  - "(202) 224-3041"
+  photo_url: http://bioguide.congress.gov/bioguide/photo/R/R000595.jpg
+  urls:
+  - https://www.rubio.senate.gov/
+- !ruby/object:Google::Apis::CivicinfoV2::Official
+  address:
+  - !ruby/object:Google::Apis::CivicinfoV2::SimpleAddressType
+    city: Washington
+    line1: 215 Cannon House Office Building
+    state: DC
+    zip: '20515'
+  channels:
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: RepCharlieCrist
+    type: Facebook
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: RepCharlieCrist
+    type: Twitter
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: UCVwY7cujoNveYpbB6vC9aKg
+    type: YouTube
+  name: Charlie Crist
+  party: Democratic Party
+  phones:
+  - "(202) 225-5961"
+  photo_url: http://crist.house.gov/images/crist-head.jpg
+  urls:
+  - https://crist.house.gov/

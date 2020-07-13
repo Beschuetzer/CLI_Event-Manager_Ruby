@@ -1,0 +1,49 @@
+Shannon 98122 [#<Google::Apis::CivicinfoV2::Official:0x0000560544310c28 @address=[#<Google::Apis::CivicinfoV2::SimpleAddressType:0x00005605443106b0 @city="Washington", @line1="511 Hart Senate Office Building", @state="DC", @zip="20510">], @channels=[#<Google::Apis::CivicinfoV2::Channel:0x00005605443035c8 @id="senatorcantwell", @type="Facebook">, #<Google::Apis::CivicinfoV2::Channel:0x0000560544302e98 @id="senatorcantwell", @type="Twitter">, #<Google::Apis::CivicinfoV2::Channel:0x0000560544302790 @id="SenatorCantwell", @type="YouTube">], @name="Maria Cantwell", @party="Democratic Party", @phones=["(202) 224-3441"], @photo_url="http://bioguide.congress.gov/bioguide/photo/C/C000127.jpg", @urls=["https://www.cantwell.senate.gov/"]>, #<Google::Apis::CivicinfoV2::Official:0x0000560544300f30 @address=[#<Google::Apis::CivicinfoV2::SimpleAddressType:0x0000560544300968 @city="Washington", @line1="154 Russell Senate Office Building", @state="DC", @zip="20510">], @channels=[#<Google::Apis::CivicinfoV2::Channel:0x00005605442f76d8 @id="pattymurray", @type="Twitter">, #<Google::Apis::CivicinfoV2::Channel:0x00005605442f6f58 @id="SenatorPattyMurray", @type="YouTube">, #<Google::Apis::CivicinfoV2::Channel:0x00005605442f6878 @id="pattymurray", @type="Facebook">], @name="Patty Murray", @party="Democratic Party", @phones=["(202) 224-2621"], @photo_url="http://bioguide.congress.gov/bioguide/photo/M/M001111.jpg", @urls=["https://www.murray.senate.gov/"]>]---
+- !ruby/object:Google::Apis::CivicinfoV2::Official
+  address:
+  - !ruby/object:Google::Apis::CivicinfoV2::SimpleAddressType
+    city: Washington
+    line1: 511 Hart Senate Office Building
+    state: DC
+    zip: '20510'
+  channels:
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: senatorcantwell
+    type: Facebook
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: senatorcantwell
+    type: Twitter
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: SenatorCantwell
+    type: YouTube
+  name: Maria Cantwell
+  party: Democratic Party
+  phones:
+  - "(202) 224-3441"
+  photo_url: http://bioguide.congress.gov/bioguide/photo/C/C000127.jpg
+  urls:
+  - https://www.cantwell.senate.gov/
+- !ruby/object:Google::Apis::CivicinfoV2::Official
+  address:
+  - !ruby/object:Google::Apis::CivicinfoV2::SimpleAddressType
+    city: Washington
+    line1: 154 Russell Senate Office Building
+    state: DC
+    zip: '20510'
+  channels:
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: pattymurray
+    type: Twitter
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: SenatorPattyMurray
+    type: YouTube
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: pattymurray
+    type: Facebook
+  name: Patty Murray
+  party: Democratic Party
+  phones:
+  - "(202) 224-2621"
+  photo_url: http://bioguide.congress.gov/bioguide/photo/M/M001111.jpg
+  urls:
+  - https://www.murray.senate.gov/

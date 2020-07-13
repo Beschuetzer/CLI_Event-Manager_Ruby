@@ -1,0 +1,76 @@
+Amanda 14841 [#<Google::Apis::CivicinfoV2::Official:0x0000560544250018 @address=[#<Google::Apis::CivicinfoV2::SimpleAddressType:0x0000560544247a58 @city="Washington", @line1="322 Hart Senate Office Building", @state="DC", @zip="20510">], @channels=[#<Google::Apis::CivicinfoV2::Channel:0x0000560544246978 @id="senschumer", @type="Facebook">, #<Google::Apis::CivicinfoV2::Channel:0x00005605442462c0 @id="SenSchumer", @type="Twitter">, #<Google::Apis::CivicinfoV2::Channel:0x0000560544245c08 @id="SenatorSchumer", @type="YouTube">, #<Google::Apis::CivicinfoV2::Channel:0x0000560544245578 @id="ChuckSchumer", @type="YouTube">], @name="Charles E. Schumer", @party="Democratic Party", @phones=["(202) 224-6542"], @photo_url="http://bioguide.congress.gov/bioguide/photo/S/S000148.jpg", @urls=["https://www.schumer.senate.gov/"]>, #<Google::Apis::CivicinfoV2::Official:0x0000560544243d40 @address=[#<Google::Apis::CivicinfoV2::SimpleAddressType:0x00005605442437c8 @city="Washington", @line1="478 Russell Senate Office Building", @state="DC", @zip="20510">], @channels=[#<Google::Apis::CivicinfoV2::Channel:0x00005605442426e8 @id="KirstenGillibrand", @type="Facebook">, #<Google::Apis::CivicinfoV2::Channel:0x0000560544242058 @id="SenGillibrand", @type="Twitter">, #<Google::Apis::CivicinfoV2::Channel:0x00005605442419c8 @id="KirstenEGillibrand", @type="YouTube">], @name="Kirsten E. Gillibrand", @party="Democratic Party", @phones=["(202) 224-4451"], @photo_url="http://bioguide.congress.gov/bioguide/photo/G/G000555.jpg", @urls=["https://www.gillibrand.senate.gov/"]>, #<Google::Apis::CivicinfoV2::Official:0x0000560544240780 @address=[#<Google::Apis::CivicinfoV2::SimpleAddressType:0x0000560544240208 @city="Washington", @line1="2263 Rayburn House Office Building", @state="DC", @zip="20515">], @channels=[#<Google::Apis::CivicinfoV2::Channel:0x000056054423ea20 @id="RepTomReed", @type="Facebook">, #<Google::Apis::CivicinfoV2::Channel:0x000056054423e390 @id="RepTomReed", @type="Twitter">, #<Google::Apis::CivicinfoV2::Channel:0x000056054423dd00 @id="CongressmanTomReed", @type="YouTube">], @name="Tom Reed", @party="Republican Party", @phones=["(202) 225-3161"], @photo_url="http://bioguide.congress.gov/bioguide/photo/R/R000585.jpg", @urls=["https://reed.house.gov/"]>]---
+- !ruby/object:Google::Apis::CivicinfoV2::Official
+  address:
+  - !ruby/object:Google::Apis::CivicinfoV2::SimpleAddressType
+    city: Washington
+    line1: 322 Hart Senate Office Building
+    state: DC
+    zip: '20510'
+  channels:
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: senschumer
+    type: Facebook
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: SenSchumer
+    type: Twitter
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: SenatorSchumer
+    type: YouTube
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: ChuckSchumer
+    type: YouTube
+  name: Charles E. Schumer
+  party: Democratic Party
+  phones:
+  - "(202) 224-6542"
+  photo_url: http://bioguide.congress.gov/bioguide/photo/S/S000148.jpg
+  urls:
+  - https://www.schumer.senate.gov/
+- !ruby/object:Google::Apis::CivicinfoV2::Official
+  address:
+  - !ruby/object:Google::Apis::CivicinfoV2::SimpleAddressType
+    city: Washington
+    line1: 478 Russell Senate Office Building
+    state: DC
+    zip: '20510'
+  channels:
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: KirstenGillibrand
+    type: Facebook
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: SenGillibrand
+    type: Twitter
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: KirstenEGillibrand
+    type: YouTube
+  name: Kirsten E. Gillibrand
+  party: Democratic Party
+  phones:
+  - "(202) 224-4451"
+  photo_url: http://bioguide.congress.gov/bioguide/photo/G/G000555.jpg
+  urls:
+  - https://www.gillibrand.senate.gov/
+- !ruby/object:Google::Apis::CivicinfoV2::Official
+  address:
+  - !ruby/object:Google::Apis::CivicinfoV2::SimpleAddressType
+    city: Washington
+    line1: 2263 Rayburn House Office Building
+    state: DC
+    zip: '20515'
+  channels:
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: RepTomReed
+    type: Facebook
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: RepTomReed
+    type: Twitter
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: CongressmanTomReed
+    type: YouTube
+  name: Tom Reed
+  party: Republican Party
+  phones:
+  - "(202) 225-3161"
+  photo_url: http://bioguide.congress.gov/bioguide/photo/R/R000585.jpg
+  urls:
+  - https://reed.house.gov/

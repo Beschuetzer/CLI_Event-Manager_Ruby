@@ -1,0 +1,72 @@
+Audrey 95667 [#<Google::Apis::CivicinfoV2::Official:0x00005605442506a8 @address=[#<Google::Apis::CivicinfoV2::SimpleAddressType:0x0000560544250130 @city="Washington", @line1="331 Hart Senate Office Building", @state="DC", @zip="20510">], @channels=[#<Google::Apis::CivicinfoV2::Channel:0x0000560544247008 @id="SenatorFeinstein", @type="Facebook">, #<Google::Apis::CivicinfoV2::Channel:0x0000560544246978 @id="SenFeinstein", @type="Twitter">, #<Google::Apis::CivicinfoV2::Channel:0x00005605442462c0 @id="SenatorFeinstein", @type="YouTube">], @name="Dianne Feinstein", @party="Democratic Party", @phones=["(202) 224-3841"], @photo_url="http://bioguide.congress.gov/bioguide/photo/F/F000062.jpg", @urls=["https://www.feinstein.senate.gov/"]>, #<Google::Apis::CivicinfoV2::Official:0x0000560544245050 @address=[#<Google::Apis::CivicinfoV2::SimpleAddressType:0x0000560544244740 @city="Washington", @line1="112 Hart Senate Office Building", @state="DC", @zip="20510">], @channels=[#<Google::Apis::CivicinfoV2::Channel:0x0000560544243408 @id="KamalaHarris", @type="Facebook">, #<Google::Apis::CivicinfoV2::Channel:0x0000560544242d78 @id="KamalaHarris", @type="Twitter">, #<Google::Apis::CivicinfoV2::Channel:0x00005605442426e8 @id="UC0XBsJpPhOLg0k4x9ZwrWzw", @type="YouTube">], @name="Kamala D. Harris", @party="Democratic Party", @phones=["(202) 224-3553"], @urls=["https://www.harris.senate.gov"]>, #<Google::Apis::CivicinfoV2::Official:0x0000560544241478 @address=[#<Google::Apis::CivicinfoV2::SimpleAddressType:0x0000560544240f00 @city="Washington", @line1="2312 Rayburn House Office Building", @state="DC", @zip="20515">], @channels=[#<Google::Apis::CivicinfoV2::Channel:0x000056054423f6a0 @id="81125319109", @type="Facebook">, #<Google::Apis::CivicinfoV2::Channel:0x000056054423f010 @id="RepMcClintock", @type="Twitter">, #<Google::Apis::CivicinfoV2::Channel:0x000056054423e980 @id="McClintockCA04", @type="YouTube">], @name="Tom McClintock", @party="Republican Party", @phones=["(202) 225-2511"], @photo_url="http://mcclintock.house.gov/sites/mcclintock.house.gov/files/wysiwyg_uploaded/McCPhoto.JPG", @urls=["https://mcclintock.house.gov/"]>]---
+- !ruby/object:Google::Apis::CivicinfoV2::Official
+  address:
+  - !ruby/object:Google::Apis::CivicinfoV2::SimpleAddressType
+    city: Washington
+    line1: 331 Hart Senate Office Building
+    state: DC
+    zip: '20510'
+  channels:
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: SenatorFeinstein
+    type: Facebook
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: SenFeinstein
+    type: Twitter
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: SenatorFeinstein
+    type: YouTube
+  name: Dianne Feinstein
+  party: Democratic Party
+  phones:
+  - "(202) 224-3841"
+  photo_url: http://bioguide.congress.gov/bioguide/photo/F/F000062.jpg
+  urls:
+  - https://www.feinstein.senate.gov/
+- !ruby/object:Google::Apis::CivicinfoV2::Official
+  address:
+  - !ruby/object:Google::Apis::CivicinfoV2::SimpleAddressType
+    city: Washington
+    line1: 112 Hart Senate Office Building
+    state: DC
+    zip: '20510'
+  channels:
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: KamalaHarris
+    type: Facebook
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: KamalaHarris
+    type: Twitter
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: UC0XBsJpPhOLg0k4x9ZwrWzw
+    type: YouTube
+  name: Kamala D. Harris
+  party: Democratic Party
+  phones:
+  - "(202) 224-3553"
+  urls:
+  - https://www.harris.senate.gov
+- !ruby/object:Google::Apis::CivicinfoV2::Official
+  address:
+  - !ruby/object:Google::Apis::CivicinfoV2::SimpleAddressType
+    city: Washington
+    line1: 2312 Rayburn House Office Building
+    state: DC
+    zip: '20515'
+  channels:
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: '81125319109'
+    type: Facebook
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: RepMcClintock
+    type: Twitter
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: McClintockCA04
+    type: YouTube
+  name: Tom McClintock
+  party: Republican Party
+  phones:
+  - "(202) 225-2511"
+  photo_url: http://mcclintock.house.gov/sites/mcclintock.house.gov/files/wysiwyg_uploaded/McCPhoto.JPG
+  urls:
+  - https://mcclintock.house.gov/

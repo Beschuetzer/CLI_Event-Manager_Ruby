@@ -1,0 +1,48 @@
+Meggie 94611 [#<Google::Apis::CivicinfoV2::Official:0x0000560544467ab8 @address=[#<Google::Apis::CivicinfoV2::SimpleAddressType:0x0000560544467130 @city="Washington", @line1="331 Hart Senate Office Building", @state="DC", @zip="20510">], @channels=[#<Google::Apis::CivicinfoV2::Channel:0x00005605444658a8 @id="SenatorFeinstein", @type="Facebook">, #<Google::Apis::CivicinfoV2::Channel:0x0000560544464db8 @id="SenFeinstein", @type="Twitter">, #<Google::Apis::CivicinfoV2::Channel:0x0000560544464570 @id="SenatorFeinstein", @type="YouTube">], @name="Dianne Feinstein", @party="Democratic Party", @phones=["(202) 224-3841"], @photo_url="http://bioguide.congress.gov/bioguide/photo/F/F000062.jpg", @urls=["https://www.feinstein.senate.gov/"]>, #<Google::Apis::CivicinfoV2::Official:0x0000560544462d10 @address=[#<Google::Apis::CivicinfoV2::SimpleAddressType:0x0000560544462658 @city="Washington", @line1="112 Hart Senate Office Building", @state="DC", @zip="20510">], @channels=[#<Google::Apis::CivicinfoV2::Channel:0x0000560544460f38 @id="KamalaHarris", @type="Facebook">, #<Google::Apis::CivicinfoV2::Channel:0x00005605444605b0 @id="KamalaHarris", @type="Twitter">, #<Google::Apis::CivicinfoV2::Channel:0x000056054445fd90 @id="UC0XBsJpPhOLg0k4x9ZwrWzw", @type="YouTube">], @name="Kamala D. Harris", @party="Democratic Party", @phones=["(202) 224-3553"], @urls=["https://www.harris.senate.gov"]>]---
+- !ruby/object:Google::Apis::CivicinfoV2::Official
+  address:
+  - !ruby/object:Google::Apis::CivicinfoV2::SimpleAddressType
+    city: Washington
+    line1: 331 Hart Senate Office Building
+    state: DC
+    zip: '20510'
+  channels:
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: SenatorFeinstein
+    type: Facebook
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: SenFeinstein
+    type: Twitter
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: SenatorFeinstein
+    type: YouTube
+  name: Dianne Feinstein
+  party: Democratic Party
+  phones:
+  - "(202) 224-3841"
+  photo_url: http://bioguide.congress.gov/bioguide/photo/F/F000062.jpg
+  urls:
+  - https://www.feinstein.senate.gov/
+- !ruby/object:Google::Apis::CivicinfoV2::Official
+  address:
+  - !ruby/object:Google::Apis::CivicinfoV2::SimpleAddressType
+    city: Washington
+    line1: 112 Hart Senate Office Building
+    state: DC
+    zip: '20510'
+  channels:
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: KamalaHarris
+    type: Facebook
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: KamalaHarris
+    type: Twitter
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: UC0XBsJpPhOLg0k4x9ZwrWzw
+    type: YouTube
+  name: Kamala D. Harris
+  party: Democratic Party
+  phones:
+  - "(202) 224-3553"
+  urls:
+  - https://www.harris.senate.gov

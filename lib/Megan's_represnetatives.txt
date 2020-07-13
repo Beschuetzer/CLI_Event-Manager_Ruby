@@ -1,0 +1,49 @@
+Megan 43201 [#<Google::Apis::CivicinfoV2::Official:0x000056054449be08 @address=[#<Google::Apis::CivicinfoV2::SimpleAddressType:0x000056054449b688 @city="Washington", @line1="448 Russell Senate Office Building", @state="DC", @zip="20510">], @channels=[#<Google::Apis::CivicinfoV2::Channel:0x0000560544499ea0 @id="senrobportman", @type="Facebook">, #<Google::Apis::CivicinfoV2::Channel:0x0000560544499608 @id="senrobportman", @type="Twitter">, #<Google::Apis::CivicinfoV2::Channel:0x0000560544498c80 @id="SenRobPortman", @type="YouTube">], @name="Rob Portman", @party="Republican Party", @phones=["(202) 224-3353"], @photo_url="http://bioguide.congress.gov/bioguide/photo/P/P000449.jpg", @urls=["https://www.portman.senate.gov/"]>, #<Google::Apis::CivicinfoV2::Official:0x00005605444971f0 @address=[#<Google::Apis::CivicinfoV2::SimpleAddressType:0x0000560544496b60 @city="Washington", @line1="503 Hart Senate Office Building", @state="DC", @zip="20510">], @channels=[#<Google::Apis::CivicinfoV2::Channel:0x0000560544495328 @id="SenatorSherrodBrown", @type="Facebook">, #<Google::Apis::CivicinfoV2::Channel:0x0000560544494ae0 @id="SenSherrodBrown", @type="Twitter">, #<Google::Apis::CivicinfoV2::Channel:0x0000560544494040 @id="SherrodBrownOhio", @type="YouTube">], @name="Sherrod Brown", @party="Democratic Party", @phones=["(202) 224-2315"], @photo_url="http://bioguide.congress.gov/bioguide/photo/B/B000944.jpg", @urls=["https://www.brown.senate.gov/"]>]---
+- !ruby/object:Google::Apis::CivicinfoV2::Official
+  address:
+  - !ruby/object:Google::Apis::CivicinfoV2::SimpleAddressType
+    city: Washington
+    line1: 448 Russell Senate Office Building
+    state: DC
+    zip: '20510'
+  channels:
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: senrobportman
+    type: Facebook
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: senrobportman
+    type: Twitter
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: SenRobPortman
+    type: YouTube
+  name: Rob Portman
+  party: Republican Party
+  phones:
+  - "(202) 224-3353"
+  photo_url: http://bioguide.congress.gov/bioguide/photo/P/P000449.jpg
+  urls:
+  - https://www.portman.senate.gov/
+- !ruby/object:Google::Apis::CivicinfoV2::Official
+  address:
+  - !ruby/object:Google::Apis::CivicinfoV2::SimpleAddressType
+    city: Washington
+    line1: 503 Hart Senate Office Building
+    state: DC
+    zip: '20510'
+  channels:
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: SenatorSherrodBrown
+    type: Facebook
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: SenSherrodBrown
+    type: Twitter
+  - !ruby/object:Google::Apis::CivicinfoV2::Channel
+    id: SherrodBrownOhio
+    type: YouTube
+  name: Sherrod Brown
+  party: Democratic Party
+  phones:
+  - "(202) 224-2315"
+  photo_url: http://bioguide.congress.gov/bioguide/photo/B/B000944.jpg
+  urls:
+  - https://www.brown.senate.gov/
