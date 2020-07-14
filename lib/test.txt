@@ -1,0 +1,25 @@
+--- !ruby/object:Google::Apis::CivicinfoV2::CivicInfoService
+root_url: https://civicinfo.googleapis.com/
+base_path: ''
+upload_path: upload/
+batch_path: batch
+client_options: !ruby/struct:Google::Apis::ClientOptions
+  application_name: unknown
+  application_version: 0.0.0
+  proxy_url: 
+  open_timeout_sec: 
+  read_timeout_sec: 
+  send_timeout_sec: 
+  log_http_requests: false
+  transparent_gzip_decompression: true
+request_options: !ruby/struct:Google::Apis::RequestOptions
+  authorization: 
+  retries: 0
+  header: 
+  normalize_unicode: false
+  skip_serialization: false
+  skip_deserialization: false
+  api_format_version: 
+  use_opencensus: true
+  quota_project: 
+key: AIzaSyClRzDqDh5MsXwnCWi0kOiiBivP6JsSyBw
